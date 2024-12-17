@@ -170,6 +170,7 @@ set -g @theme_transparent_right_separator_inverse ''
 ![Screenshot 2024-09-07 at 12 39 35](https://github.com/user-attachments/assets/a33417b1-34e0-4212-952e-7ef1e240e943)
 **only work if you enable transparency** 👇
 ![Screenshot](https://i.imgur.com/NdMIqCH.jpeg)
+
 [features]: #features
 [screenshots]: #screenshots
 [install]: #install
