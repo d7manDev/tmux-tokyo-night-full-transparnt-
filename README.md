@@ -67,29 +67,30 @@ Hit <kbd>prefix</kbd> + <kbd>I</kbd> to fetch the plugin and source it. You can 
 
 > Prints informations about the current date and time.
 
-| Configuration                              | Description | Avaliable Options | Default |
-| ------------------------------------------ | ----------- | ----------------- | ------- |
-| `@theme_plugin_datetime_icon`              |             | Any character 📅  | Nerd Font 'Calendar' icon        |
-| `@theme_plugin_datetime_accent_color`      |             |                   |         |
-| `@theme_plugin_datetime_accent_color_icon` |             |                   |         |
-| `@theme_plugin_datetime_format`            |             |                   |         |
+| Configuration                              | Description | Avaliable Options | Default                   |
+| ------------------------------------------ | ----------- | ----------------- | ------------------------- |
+| `@theme_plugin_datetime_icon`              |             | Any character 📅  | Nerd Font 'Calendar' icon |
+| `@theme_plugin_datetime_accent_color`      |             |                   |                           |
+| `@theme_plugin_datetime_accent_color_icon` |             |                   |                           |
+| `@theme_plugin_datetime_format`            |             |                   |                           |
 
 ### Weather
 
 > Prints informations about the current weather. It uses `jq` to parse the response. Make shure to have it;
 
-| Configuration                             | Description | Avaliable Options | Default |
-| ----------------------------------------- | ----------- | ----------------- | ------- |
-| `@theme_plugin_weather_icon`              |             | Any character 🌡️  |  Font Awesome 'Cloud' icon        |
-| `@theme_plugin_weather_accent_color`      |             |                   |         |
-| `@theme_plugin_weather_accent_color_icon` |             |                   |         |
-| `@theme_plugin_weather_format`            | Format for displaying weather information | `%t`, `%c`, `%h`, `%w` (temperature, condition, humidity, wind) | `%t+H:%h` |
-| `@theme_plugin_weather_location`          | Location for weather (city/country)   | `"City, Country"`  | IP-based location detection |
+| Configuration                             | Description                               | Avaliable Options                                               | Default                     |
+| ----------------------------------------- | ----------------------------------------- | --------------------------------------------------------------- | --------------------------- |
+| `@theme_plugin_weather_icon`              |                                           | Any character 🌡️                                                | Font Awesome 'Cloud' icon   |
+| `@theme_plugin_weather_accent_color`      |                                           |                                                                 |                             |
+| `@theme_plugin_weather_accent_color_icon` |                                           |                                                                 |                             |
+| `@theme_plugin_weather_format`            | Format for displaying weather information | `%t`, `%c`, `%h`, `%w` (temperature, condition, humidity, wind) | `%t+H:%h`                   |
+| `@theme_plugin_weather_location`          | Location for weather (city/country)       | `"City, Country"`                                               | IP-based location detection |
 
 #### Example
-  ```
-  set -g @theme_plugin_weather_location 'Blacksburg, United States'
-  ```
+
+```
+set -g @theme_plugin_weather_location 'Blacksburg, United States'
+```
 
 ### Playerctl
 
@@ -167,7 +168,8 @@ set -g @theme_transparent_right_separator_inverse ''
 ```
 
 ![Screenshot 2024-09-07 at 12 39 35](https://github.com/user-attachments/assets/a33417b1-34e0-4212-952e-7ef1e240e943)
-
+**only work if you enable transparency** 👇
+![Screenshot](https://i.imgur.com/NdMIqCH.jpeg)
 [features]: #features
 [screenshots]: #screenshots
 [install]: #install
